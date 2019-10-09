@@ -9,7 +9,7 @@ from keras import optimizers
 from keras.callbacks import ModelCheckpoint, EarlyStopping
 
 from sklearn.metrics import recall_score, precision_recall_fscore_support
-from lib.metrics import avg_recall
+from .metrics import avg_recall
 
 '''
  Neural Network definition and initialization:
